@@ -1,5 +1,5 @@
 const cityForm = document.querySelector('form');
-const headingAndCity = document.querySelector('.container .heading')
+const headingAndCity = document.querySelector('.container .heading');
 const card = document.querySelector('.card');
 const cardImage = document.querySelector('.card img');
 const details = document.querySelector('.details');
