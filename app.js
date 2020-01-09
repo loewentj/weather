@@ -58,7 +58,7 @@ cityForm.addEventListener('submit', e => {
   // get city value
   const city = cityForm.city.value.trim();
   cityForm.reset();
-  headingAndCity.focus();
+  card.focus();
 
   // update the ui with new city
   updateCity(city)
