@@ -5,7 +5,7 @@ const cardImage = document.querySelector('.card img');
 const details = document.querySelector('.details');
 const time = document.querySelector('.card .time');
 const icon = document.querySelector('.icon img');
-const forecast = document.querySelector('.carousel-container')
+const forecast = document.querySelector('.carousel-container');
 
 const updateUI = (data) => {
   // destructure properties
