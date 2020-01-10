@@ -37,7 +37,7 @@ font-family: 'Baskervville', serif; */
 }
 
 .container form label{
-    margin: 2rem auto;
+    margin: 1.3rem auto;
     font-size: 2rem;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -60,8 +60,8 @@ font-family: 'Baskervville', serif; */
     font-size: 1.2rem;
     border: 2px ridge lightgrey;
     /* background: greenyellow; */
-	margin-bottom:1.2rem;
-	margin-top:1.2rem;
+	margin-bottom:0.7rem;
+	margin-top:0.7rem;
     
 }
 
@@ -79,8 +79,8 @@ background-image: linear-gradient(to right top, #744fc6, #7b4ec8, #824dca, #894c
 .container h1 {
     /* margin-top: 10px; */
     font-size: 1.4rem;
-    font-family: 'Montserrat', sans-serif
-color:#FFFFFF
+    font-family: 'Montserrat', sans-serif;
+color:#FFFFFF;
 }
 
 .details{
