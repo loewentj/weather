@@ -1,4 +1,4 @@
-const key = 'tzXAROwfKhVAEdVcDViGRYgQfp9Anwc0';
+const key = 'xXPJ0FfqGAoEqwJEhNztgWa4jCpbL8Gt';
 
 // get weather information
 const getWeather = async (id) => {
