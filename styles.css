@@ -130,7 +130,7 @@ border-radius: 5px;
   
 }
 .day{
-background: url('day.svg');
+background: url('https://loewentj.github.io/weather/day.svg');
 background-repeat: no-repeat;
 
 background-size: cover;
@@ -139,7 +139,7 @@ z-index: -10;
 color:black;
 }
 .night{
-    background: url('night.svg');
+    background: url('https://loewentj.github.io/weather/night.svg');
     background-repeat: no-repeat;
    
     background-size: cover;
@@ -172,6 +172,7 @@ color:black;
     /* border: 1px solid red; */
     background-color: grey;
     border-radius: 100%;
+    margin-top: 1rem;
    
    
 }
