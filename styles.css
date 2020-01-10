@@ -67,9 +67,7 @@ width: 100px;
 margin-top: 10px;
 border: none;
 border-radius: 10px;
-
-background-image: linear-gradient(to left top, #02c39a, #02c39a, #02c39a, #02c39a, #02c39a, #00be9c, #00b89d, #00b39e, #00a69e, #009a9c, #008d97, #028090);
-}
+background-image: linear-gradient(to right top, #744fc6, #0e73dd, #008edf, #00a2d3, #00b2c2, #00b4bf, #00b6bb, #00b8b7, #00aec3, #00a2cb, #2095cc, #4f86c6);}
 
 .container h1 {
     /* margin-top: 10px; */
