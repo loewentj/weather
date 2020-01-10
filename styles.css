@@ -67,6 +67,8 @@ width: 100px;
 margin-top: 10px;
 border: none;
 color: #fff;
+font-weight: 600;
+font-family: 'Baskervville', serif;
 border-radius: 10px;
 background-image: linear-gradient(to right top, #744fc6, #7b4ec8, #824dca, #894ccc, #904ace, #8952d2, #8359d5, #7c60d7, #686dd8, #5877d4, #4f7fce, #4f86c6);
 }
