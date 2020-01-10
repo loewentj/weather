@@ -20,7 +20,7 @@ font-family: 'Baskervville', serif; */
     align-items: center;
     flex-direction: column;
     height: auto;
-    background-image: linear-gradient(to bottom, #536976, #58758a, #5e829f, #668eb4, #7299ca, #6e95c9, #6a91c7, #678dc6, #5079ae, #3a6697, #225380, #00416a);
+    background: linear-gradient(to bottom right, rgba(41, 64, 235, 1.0), rgba(180, 180, 180, 1.0));
     
 
 }
