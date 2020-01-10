@@ -67,7 +67,8 @@ width: 100px;
 margin-top: 10px;
 border: none;
 border-radius: 10px;
-background-image: linear-gradient(to right top, #05668d, #007797, #00889c, #00989c, #00a896);
+
+background-image: linear-gradient(to left top, #02c39a, #02c39a, #02c39a, #02c39a, #02c39a, #00be9c, #00b89d, #00b39e, #00a69e, #009a9c, #008d97, #028090);
 }
 
 .container h1 {
