@@ -65,7 +65,8 @@ font-family: 'Baskervville', serif; */
 padding: 5px;
 width: 100px;
 margin-top: 10px;
-border-radius: 5px;
+border-radius: 10px;
+background-image: linear-gradient(to right top, #05668d, #007797, #00889c, #00989c, #00a896);
 }
 
 .container h1 {
