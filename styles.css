@@ -1,3 +1,6 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Baskervville', serif; */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +20,7 @@
     align-items: center;
     flex-direction: column;
     height: auto;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     
 
 }
@@ -25,56 +29,95 @@
     display: flex;
     flex-direction: column;
     /* margin: 2rem auto; */
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
 }
 
 .container form label{
     margin: 1rem auto;
     font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
     
+}
+
+.container form .input-group{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container form input{
     padding: 10px;
     border-radius: 5px;
-    border: 2px ridge blue;
-    background: greenyellow;
+    width: 90vw;
+    font-size: 1.2rem;
+    border: 2px ridge lightgrey;
+    /* background: greenyellow; */
     
+}
+
+.container form .btn-go{
+padding: 5px;
+width: 100px;
+margin-top: 10px;
+border-radius: 5px;
 }
 
 .container h1 {
     /* margin-top: 10px; */
-    font-size: 1rem;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif
 }
 
-/* .container h4 {
-   
-    font-size: 1.5rem;
-    margin-top: 10px;
-} */
+.details{
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin: auto; */
+    margin-top:1rem;
+    font-family: 'Baskervville', serif;
+    
+}
 
-.container h4 span {
+.details .details-span{
+    font-size:1.3rem;
+    font-family: 'Montserrat', sans-serif
+}
+
+/* .container h4 span {
     
     font-size: 1.3rem;
     margin-left: 5px;
-}
+    font-family: 'Baskervville', serif;
+    color: red;
+} */
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 60vh;
     border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 5px;
+    /* margin-bottom: 5px; */
+    background-image: linear-gradient(to right top, #fffbfa, #f8f2f3, #efeaed, #e4e2e8, #d8dbe2);
+   
+   
 }
 
-.container .card .details {
-   
+.card .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container .card .details h5{
@@ -83,32 +126,57 @@
 
 .container .card .time {
     width: 100%;
+    /* opacity: 0.6; */
+  
+}
+.day{
+background: url('day.svg');
+background-repeat: no-repeat;
+
+background-size: cover;
+height: 100%;
+z-index: -10;
+color:black;
+}
+.night{
+    background: url('night.svg');
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    height: 100%;
+    z-index: -10;
+    color: white;
+}
+
+
+.container .card .time-img{
+    width: 100%;
     height: auto;
+    
+    
   
   
+}
+
+.day-color{
+    background-color: yellow;
+}
+
+.night-color{
+    background-color: black;
 }
 
 .container .card .sun img{
     
-    height:100px ;
-    border: 1px solid red;
+    height:80px ;
+    /* border: 1px solid red; */
     background-color: grey;
     border-radius: 100%;
-   position: relative;
-   bottom: 70px;
-    /* margin: 0 auto; */
+   
    
 }
 
-/* .container .card .container .icon img{
-    height: 20px;
-    width: ;
-    position: absolute;
-    
-    z-index:999 ;
-    border-radius: 5%;
-    background-color: red;
-} */
+
 .carousel-container{
     
   
@@ -118,7 +186,7 @@
    white-space: nowrap;
   
   
-   position: relative;
+   /* position: relative; */
     width: 100%;
     height: 140px;
    
@@ -141,7 +209,7 @@
    
 }
 figcaption{
-    font-size: 0.2rem;
+    font-size: 0.5rem;
     text-align: center;
 }
 
