@@ -39,6 +39,7 @@ font-family: 'Baskervville', serif; */
 .container form label{
     margin: 1rem auto;
     font-size: 2rem;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     
 }
